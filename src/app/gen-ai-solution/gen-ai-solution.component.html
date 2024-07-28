@@ -1,0 +1,33 @@
+<div>
+    <form (submit)="onSubmit()" [formGroup]="checkoutForm">
+      <div class="border">
+          <!-- <input type="text" class="form-control w-75" formControlName="textPrompt">
+          <input type="file" class="form-control w-25" #filePicker (change)="onFilePicked($event)"> -->
+          <div class="m-4 gap-4 row">
+            <div class="col w-50">
+              <label>Text Prompt</label>
+              <textarea class="form-control" [style.height.px]="300" formControlName="textPrompt"></textarea>
+            </div>
+            <div class="col w-50">
+              <label>Code Prompt</label>
+              <textarea class="form-control" [style.height.px]="300" formControlName="codePrompt"></textarea>
+            </div>
+            
+          </div>
+          <div class="text-center mb-3">
+            <button type="submit" class="btn btn-primary ms-3">Submit</button>  
+          </div>
+          
+      </div>
+    </form>
+    
+  </div>
+  
+  <div class="m-4 overflow-x-auto">
+    <div class="card-body" [style.height.px]="500">
+      <h5 class="card-title">Gen AI Output</h5>
+      <div [innerHtml]="vertexOutput"></div>
+    </div>
+  </div>
+  <!-- spinner wip -->
+  <ngx-spinner type="ball-scale-multiple"></ngx-spinner>
