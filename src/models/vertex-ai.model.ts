@@ -1,7 +1,7 @@
 export function createPrompt(
     prompt: string = "What is the largest number with a name?",
     temperature: number = 0.7,
-    maxOutputTokens: number = 100,
+    maxOutputTokens: number = 2000,
     topP: number = 0.95,
     topK: number = 40
   ): any {
