@@ -1,27 +1,23 @@
-# VertexAi
+## Install list of software to get started
+1. Google cloud SDK
+2. Source tree
+3. VS Code
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+## Clone a repository
 
-## Development server
+1. Goto this link: https://bitbucket.org/kailas-workspace/genzrepo/src/master/
+2. If you don't the have access, ask for the permission
+3. If you have the access then click on clone button
+4. After clicking on clone button, you will three options:
+    a. clone in source tree
+    b. clone in vs code
+    c. link to copy
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## How to run the application
+1. Goto genzrepo folder
+2. Open the command prompt or terminal in the vs code from the genzrepo folder
+3. Execute 'npm install'
+4. Execute 'npm run start'
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Execute this command to get the gClound print access token
+gcloud auth application-default print-access-token
